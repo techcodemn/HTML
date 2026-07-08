@@ -1,6 +1,120 @@
-BODY{
-    COLOR:rgb(2, 0, 128);
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
-BACKGROUND{
-    COLOR:rgb(135, 230, 235);
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f8f8f8;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+header{
+    background:#ff6b35;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Navbar */
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Main */
+main{
+    width:80%;
+    margin:30px auto;
+}
+
+/* Section */
+section{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h1{
+    margin-bottom:10px;
+}
+
+h2{
+    color:#ff6b35;
+    margin-bottom:15px;
+}
+
+h3{
+    margin-top:15px;
+    color:#444;
+}
+
+/* Paragraph */
+p{
+    margin-bottom:10px;
+}
+
+/* Lists */
+ul,ol{
+    margin-left:25px;
+    margin-top:10px;
+}
+
+/* Image */
+img{
+    width:100%;
+    max-width:500px;
+    display:block;
+    margin:20px auto;
+    border-radius:10px;
+}
+
+/* Form */
+form input,
+form textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#ff6b35;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e85a2a;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
 }
